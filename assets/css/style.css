@@ -147,10 +147,59 @@ Banner End
 ========================================*/
 
 .about .row .col1{
-	width: 50%;
+	width: 48%;
 	float: left;
+	margin-right: 3%;
 }
 .about .row .col1 img{
 	width: 100%;
 	border-radius: 20px;
+}
+
+.about .row .col2{
+	width:49%;
+	float: left;
+}
+.about .row .col2 h2{
+	font-size: 32px;
+	font-weight: 800;
+	color: #2FB99E;
+}
+.about .row .col2 h3{
+	padding-top: 20px;
+
+}
+.about .row .col2 h3 span{
+	color: #2FB99E;
+	text-transform:uppercase;
+}
+.about .row .col2 ul{
+	overflow: hidden;
+	list-style: none;
+	padding: 20px 0px;
+
+
+}
+.about .row .col2 ul li{
+	width: 50%;
+	float: left;
+	margin-bottom: 15px;
+	font-weight: 300;
+	color: #888;
+}
+.about .row .col2 ul li b{
+	font-weight: bold;
+	color: #000;
+}
+
+.about .row .col2 a{
+	padding: 10px 15px;
+	background-color: #2FB99E;
+	color: #fff;
+	margin-right: 28px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+.about .row .col2 a:hover{
+	background-color: #0C9B7E;
 }
