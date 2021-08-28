@@ -1,0 +1,156 @@
+*, ::after, ::before{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box; 
+}
+* {
+	font-family: poppins;
+}
+ 
+ @font-face{
+ 	src:url(../fonts/Poppins-Regular.ttf);
+ 	font-family: poppins;
+ }
+
+ .container{
+	max-width: 1140px;
+	margin: 0px auto;
+}
+
+.container-fluid  {
+	max-width: 100%;
+	padding: 0 15px;
+}
+/*================================
+Header start
+=================================*/
+
+header{
+    background-color: #fff;
+	overflow: hidden;
+}
+
+
+
+header .row .col1{
+	width: 20%;
+	float: left;
+	
+
+}
+header .row .col1 a{
+	color: #0C9B7E;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+header .row .col1 a span{
+	color: #000;
+	transition: 0.3s
+}
+header .row .col1 a:hover span{
+	color: #0C9B7E;
+}
+header .row .col2{
+	float: left;
+	width: 80%;
+}
+header  .col2 .menu ul{
+	text-align: right;
+}
+
+header  .col2 .menu ul li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	text-transform: capitalize;
+}
+
+header  .col2 .menu ul li a{
+	color: #000;
+	transition: 0.3s;
+	
+}
+header  .col2 .menu ul li a:hover{
+	color: #0C9B7E;
+}
+/*==================================
+Header End
+====================================*/
+
+/*===================================
+Banner start
+=====================================*/
+
+.banner{
+	padding: 150px 0px;
+	overflow: hidden;
+}
+
+.banner .row .col1{
+	width: 50%;
+	float: left;
+}
+.banner .row .col1 h1{
+	font-weight: 700;
+	font-size: 40px;
+} 
+.banner .row .col1 h1 span{
+	color: #30BA9E;
+}
+.banner .row .col1 h3{
+	font-size: 24px;
+	font-weight: 500;
+	padding-top: 30px;
+}
+.banner .row .col1 h3 span{
+	color: #30BA9E;
+}
+.banner .row .col1 p{
+	width: 440px;
+	margin: auto 0px;
+	color: #888;
+	font-size: 14px;
+	padding-top: 30px;
+	margin-bottom: 35px;
+}
+.banner .row .col1 a{
+	padding: 12px 24px;
+	background-color: #2FB99E;
+	color:#fff;
+	font-size: 14px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+.banner .row .col1 a:hover{
+	background-color: #0C9B7E;
+}
+.banner .row .col2{
+	float: left;
+	width: 50%;
+}
+
+.banner .row .col2 img{
+	width: 450px;
+	height: 450px;
+	border-radius: 50%;
+}
+
+/*======================================
+Banner End
+========================================*/
+
+.about .row .col1{
+	width: 50%;
+	float: left;
+}
+.about .row .col1 img{
+	width: 100%;
+	border-radius: 20px;
+}
