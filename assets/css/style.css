@@ -22,6 +22,20 @@
 	max-width: 100%;
 	padding: 0 15px;
 }
+body{
+	background-color: #F8F8F8;
+}
+
+.btn {
+	padding: 10px 20px !important;
+	background-color:  #1AB394 !important;
+	border-radius: 10px !important;
+	color: #fff !important;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+
 /*================================
 Header start
 =================================*/
@@ -146,6 +160,12 @@ Banner start
 Banner End
 ========================================*/
 
+/*======================================
+About section start
+========================================*/
+.about {
+	overflow: hidden;
+}
 .about .row .col1{
 	width: 48%;
 	float: left;
@@ -202,4 +222,340 @@ Banner End
 }
 .about .row .col2 a:hover{
 	background-color: #0C9B7E;
+}
+
+/*====================================
+About section end
+======================================*/
+
+
+
+/*=====================================
+Skill section start
+=======================================*/
+
+.skill {
+	padding: 40px 0px;
+	overflow: hidden;
+}
+
+
+.skill .row .col1 p{
+	color: #777;
+	font-size: 15px;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+.skill .row .col1 h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: #2FB99E;
+}
+
+.skill .row2 {
+	overflow: hidden;
+}
+
+.skill .row2 .col {
+	float: left;
+	width: 46%;
+	margin-right: 4%;
+}
+
+.skill .row2 .col .skill-list {
+	overflow: hidden;
+	margin-bottom:30px;
+}
+.skill .row2 .col .skill-list .info {
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.skill .row2 .col .skill-list p {
+	width: 50%;
+	float: left;
+}
+.skill .row2 .col .skill-list p:last-child {
+	text-align: right;
+}
+
+.skill .row2 .col .progress{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background-color: #E1E1E1;
+	border-radius: 10px;
+ 
+}
+
+.skill .row2 .col .progress .html {
+	position: absolute;
+	width: 95%;
+	bottom: 0;
+	left: 0;
+	background-color: red;
+	height: 100%; 
+	border-radius: 10px;
+}
+
+.skill .row2 .col .progress .css {
+	position: absolute;
+	width: 85%;
+	bottom: 0;
+	left: 0;
+	background-color: #FBDD62;
+	height: 100%; 
+	border-radius: 10px;
+}
+
+.skill .row2 .col .progress .php {
+	position: absolute;
+	width: 70%;
+	bottom: 0;
+	left: 0;
+	background-color: #0BCEAF;
+	height: 100%; 
+	border-radius: 10px;
+}
+.skill .row2 .col .progress .wordpress  {
+	position: absolute;
+	width: 70%;
+	bottom: 0;
+	left: 0;
+	background-color: #0BCEAF;
+	height: 100%; 
+	border-radius: 10px;
+}
+
+.skill .row2 .col .progress .an  {
+	position: absolute;
+	width: 90%;
+	bottom: 0;
+	left: 0;
+	background-color: red;
+	height: 100%; 
+	border-radius: 10px;
+}
+
+.skill .row2 .col .progress .js  {
+	position: absolute;
+	width: 95%;
+	bottom: 0;
+	left: 0;
+	background-color:#FBDD62;
+	height: 100%; 
+	border-radius: 10px;
+}
+
+/*==============================
+			Skill section end
+===============================*/
+
+/*===============================
+		Service section start
+================================*/
+.service .row{
+	overflow: hidden;
+}
+.service .row .col p{
+	font-size: 15px;
+	font-weight: 300;
+	color: #888;
+	margin-bottom: 20px;
+
+}
+.service .row .col h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: #1AB394;
+	margin-bottom: 50px;
+}
+.service .row2 .col{
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+
+.service .row2{
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+.service .row2 .box{
+	padding: 14px 14px;
+	background-color:#FF5380;
+	border-radius: 20px;
+	overflow: hidden;
+}
+.service .row2 .box .icon{
+	width: 15%;
+	float: left;
+	margin-right: 5%;
+}
+.service .row2 .box .text{
+	width: 80%;
+	float: right;
+	color: #fff;
+}
+.service .row2 .box .icon img{
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 1px;
+	transition: 1s;
+
+}
+.service .row2 .box:hover img{
+	transform: rotateY(360deg);
+}
+
+.service .row2 .box .text h2{
+	font-size: 20px;
+
+}
+.service .row2 .box .text p{
+    font-weight: 200;
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
+/*==================================
+Service section end
+===================================*/
+
+
+/*=================================
+ Portfolio section start
+=================================*/
+
+.portfolio .row{
+	padding: 70px 50px 0px 0px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+
+.portfolio .row .col p{
+	font-size: 16px;
+	font-weight: 300;
+	color: #888;
+	margin-bottom: 16px;
+
+}
+
+.portfolio .row .col h2{
+	font-size: 40px;
+	font-weight: 600;
+	color: #0BCEAF;
+	margin-bottom: 40px;
+}
+
+.portfolio .row .col ul li{
+	font-size: 14px;
+	font-weight: 300;
+	color: #888;
+	display: inline-block;
+	margin-right: 20px;
+	transition: 0.5s;
+	padding: 10px 15px;
+	background-color: transparent;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.portfolio .row .col ul li:hover{
+	color: #fff;
+	background-color: #0BCEAF;
+
+}
+.portfolio .row2 {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.portfolio .row2 .col{
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+
+}
+
+.portfolio .row2 .col:last-child {
+	margin-right: 0;
+}
+.portfolio .row2 .col .box{
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 20px 10px; 
+	position: relative;
+	overflow: hidden;
+
+}
+.portfolio .row2 .col .box img{
+	width: 100%;
+	
+}
+.portfolio .row2 .col .box::after {
+	content: "";
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	bottom: 15px;
+	background-color: #FF5380;
+	opacity:0;
+	border-radius: 20px;
+	transition: 0.5s;
+	transform: scale(0.8);
+}
+
+.portfolio .row2 .col .box:hover.box::after {
+	transform: scale(1);
+	opacity: 0.8;
+}
+
+.portfolio .row2 .col .box .text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	color: #fff;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.portfolio .row2 .col .box:hover .text{
+	opacity: 1;
+}
+
+.portfolio .row2 .col .box .text ul li {
+	display: inline-block;
+	background-color: #1AB394;
+	margin-right: 12px;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.portfolio .row2 .col .box .text ul li:last-child {
+	background-color: #F7D650;
+	margin-right: 0;
+}
+.portfolio  .row3 {
+	margin: 50px 0; 
+}
+.portfolio  .row3 .button ul {
+	list-style: none;
+	text-align: center;
+}
+
+.portfolio  .row3 .button ul li {
+	display: inline-block;
+}
+
+.portfolio  .row3 .button ul li:first-child {
+	margin-right: 20px;
 }
