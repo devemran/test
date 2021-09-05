@@ -1,0 +1,43 @@
+/*medium layout: 1280px. */
+@media only screen and (min-width:992px) and (max-width: 1200px)
+{                       }
+
+/* tablet layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{                       }
+
+
+/* mobile layout: 320px */
+@media only screen and  (max-width: 767px)
+{    
+     .container{
+    	padding: 0 10%;
+    }
+         
+    /*Header section*/
+    header {
+    	display: none;
+    }     
+    /*Banner section*/
+	.banner .row .col1{
+		width:100%;
+		float: none;
+	}
+
+	.banner .row .col2{
+		width:100%;
+		float: none;
+	}
+
+
+	.banner .row .col2 img{
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+		display: block;
+		margin:auto;
+		margin-top: 50px;
+	}
+
+}
+
