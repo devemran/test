@@ -97,5 +97,45 @@ portfolio section
 	margin-bottom: 20px;
 	display: inline-block;
 }
+.portfolio  .row3 .button ul li{
+	display: inline-block;
+	margin-bottom: 40px;
+}
+/*=====================
+client section
+=======================*/
+.client .row2 .col {
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*=====================
+blog section
+=======================*/
+
+.blog .row2 .col {
+	width: 100%;
+	margin-bottom: 100px;
+}
+.blog .row2 .col .blog-content ul li:first-child{
+	width: 80%;
+}
+.blog .row2 .col .blog-content ul li:last-child{
+	width: 20%;
+}
+/*=====================
+footer section
+=======================*/
+.footer .row .col{
+	width: 100%;
+	margin-bottom: 40px;
+
+}
+.follow {
+	transform: rotate(90deg);
+	position: fixed;
+	left: -105px;
+	bottom:25%;
+	z-index: 99999999;
+}
 
 }
