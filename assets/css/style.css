@@ -911,3 +911,6 @@ Service section end
 	width: 100px;
 	display: inline-block;
 }
+.follow .social i:hover{
+	color: #0BCEAF;
+}

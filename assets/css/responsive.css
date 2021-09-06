@@ -39,5 +39,63 @@
 		margin-top: 50px;
 	}
 
+	.banner .row .col1 p{
+	width: 200px;
+	margin: auto 0px;
+	color: #888;
+	font-size: 14px;
+	padding-top: 30px;
+	margin-bottom: 35px;
+
 }
 
+/*======================
+Aout section start
+========================*/
+.about .row .col2{
+	width:100%;
+}
+
+.about .row .col2 ul li{
+	width: 100%;
+}
+.about .row .col2 .btn1{
+	margin-bottom: 20px;
+
+}
+
+.about .row .col2 a{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+/*================
+skill section
+==================*/
+.skill .row2 .col {
+	display: inline-block;
+	width: 100%;
+}
+/*=======================
+service section
+========================*/
+.service .row2 .col{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 20px;
+
+
+}
+/*=====================
+portfolio section
+=======================*/
+.portfolio .row2 .col{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+.portfolio  .row3 .button{
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+}
