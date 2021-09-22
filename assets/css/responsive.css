@@ -4,7 +4,39 @@
 
 /* tablet layout: 768px */
 @media only screen and (min-width: 768px) and (max-width: 991px)
-{                       }
+{   
+
+	 .container{
+		padding: 0 5%;
+	}
+
+	header .col2 .menu ul li {
+		font-size: 14px;
+	}
+
+	.banner .row .col2 img{
+	width: 300px;
+	height: 300px;
+	display: block;
+	margin: auto;
+	}
+
+	.about .row .col2 a{
+		
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+	.follow {
+	transform: rotate(90deg);
+	position: fixed;
+	left: -120px;
+	bottom:25%;
+	z-index: 99999999;
+}
+
+
+
+    }
 
 
 /* mobile layout: 320px */
@@ -15,9 +47,41 @@
     }
          
     /*Header section*/
-    header {
-    	display: none;
-    }     
+      header {
+      	padding: 20px 5%;
+      }
+	  header .toggle-bar {
+	  	display: block;
+	  }  
+	  
+
+	  header .logo {
+	  	width: 50%;
+	  	float: left;
+	  	display: block;
+	  }
+
+	  header .row .col1{
+	  	width: 100%;
+	  	float: left;
+	  }
+
+	  header .toggle-bar {
+	  	width: 50%;
+	  	float: left;
+	  	text-align: right;
+	  	font-size: 20px;
+	  }
+
+	    header .col2 .menu {
+	    	display: none;
+	    }
+
+	  header .col2 .menu ul li {
+		display: block;
+		text-align: left;
+		}
+
     /*Banner section*/
 	.banner .row .col1{
 		width:100%;
@@ -50,7 +114,7 @@
 }
 
 /*======================
-Aout section start
+About section start
 ========================*/
 .about .row .col2{
 	width:100%;
@@ -85,6 +149,9 @@ service section
 
 
 }
+.service .row2{
+	margin-bottom: 0;
+}
 /*=====================
 portfolio section
 =======================*/
@@ -101,12 +168,18 @@ portfolio section
 	display: inline-block;
 	margin-bottom: 40px;
 }
+.portfolio .row2 {
+	margin-bottom: 0;
+}
 /*=====================
 client section
 =======================*/
 .client .row2 .col {
 	width: 100%;
 	margin-bottom: 20px;
+}
+.client .row2{
+	padding: 0;
 }
 /*=====================
 blog section
@@ -133,7 +206,7 @@ footer section
 .follow {
 	transform: rotate(90deg);
 	position: fixed;
-	left: -105px;
+	left: -115px;
 	bottom:25%;
 	z-index: 99999999;
 }

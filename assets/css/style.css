@@ -62,9 +62,8 @@ header{
 header .row .col1{
 	width: 20%;
 	float: left;
-	
-
 }
+
 header .row .col1 a{
 	color: #0C9B7E;
 	font-size: 22px;
@@ -106,6 +105,10 @@ header  .col2 .menu ul li a{
 header  .col2 .menu ul li a:hover{
 	color: #0C9B7E;
 }
+
+header .toggle-bar {
+	display: none;
+}
 /*==================================
 Header End
 ====================================*/
@@ -139,7 +142,7 @@ Banner start
 	color: #30BA9E;
 }
 .banner .row .col1 p{
-	width: 440px;
+	max-width: 440px;
 	margin: auto 0px;
 	color: #888;
 	font-size: 14px;
@@ -796,10 +799,16 @@ Service section end
 	
 
 .footer .row .col{
-	width: 33%;
+	width: 32%;
 	float: left;
-
+	margin-right: 2%;
 }
+
+.footer .row .col:last-child{
+	margin-right: 0%;
+}
+
+
 .footer .row .col h2{
 	font-size: 20px;
 	font-weight: 600;
@@ -908,8 +917,11 @@ Service section end
 }
 
 .follow .social {
-	width: 100px;
 	display: inline-block;
+}
+.follow .social i {
+	transform: rotate(-90deg);
+	margin-right: 15px;
 }
 .follow .social i:hover{
 	color: #0BCEAF;
