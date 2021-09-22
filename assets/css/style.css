@@ -926,3 +926,18 @@ Service section end
 .follow .social i:hover{
 	color: #0BCEAF;
 }
+
+.top {
+	background-color: #0BCEAF;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 8px;
+	position: fixed;
+	right: 10px;
+	bottom: 30px;
+	text-align: center;
+	line-height: 27px;
+	cursor: pointer;
+}
